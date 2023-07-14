@@ -1,8 +1,9 @@
 package com.provisoplus.mainpackege.uikeyword;
 
-import java.time.Duration;
 
-import org.openqa.selenium.NoSuchElementException;
+import java.time.Duration;
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,9 +18,12 @@ public class UIKeyword {
 	
 	public static void openBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("Chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					"C:\\Users\\SAI\\Downloads\\chromedriver_win32 (6)\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
-			driver = new  ChromeDriver(options);	
+			driver = new  ChromeDriver(options);
+			driver.manage().window().maximize();  
 			
 		}
 		else if (browserName.equalsIgnoreCase("Firefox")) {
