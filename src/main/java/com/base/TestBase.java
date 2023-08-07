@@ -11,10 +11,12 @@ public class TestBase {
 		UIKeyword.openBrowser("Chrome");
 		UIKeyword.lunchUrl("https://www.practo.com/");
 		
+		
+		
 	}
 	@AfterMethod
 	public void tearDownMethod() throws Exception {
-		UIKeyword.driver.close();
+//		UIKeyword.driver.close();
 	}
 
 }
