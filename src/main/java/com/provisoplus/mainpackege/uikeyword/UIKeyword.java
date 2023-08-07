@@ -17,9 +17,12 @@ public class UIKeyword {
 	
 	public static void openBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("Chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					"D:\\JARS\\drivers\\chromedriver_win32 (3) 114\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
-			driver = new  ChromeDriver(options);	
+			driver = new  ChromeDriver(options);
+			driver.manage().window().maximize();
 			
 		}
 		else if (browserName.equalsIgnoreCase("Firefox")) {
@@ -38,7 +41,7 @@ public class UIKeyword {
 
 	}
 		
-	}
+}
 	
 	
 

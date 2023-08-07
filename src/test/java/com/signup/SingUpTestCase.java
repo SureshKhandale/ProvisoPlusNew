@@ -6,8 +6,9 @@ import com.base.TestBase;
 
 public class SingUpTestCase extends TestBase {
 	@Test
-	public void VerifyThatAllFieldsArePresentOnSignInPage() {
-		// TODO Auto-generated method stub
+	public void VerifyThatAllFieldsArePresentOnSignInPage() throws InterruptedException {
+		SingUpTestCase stp = new SingUpTestCase();
+		stp.wait();
 
 	}
 
