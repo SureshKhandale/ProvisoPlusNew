@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.testingshastra</groupId>
-  <artifactId>ProvisoPlusNew</artifactId>
-  <version>1.0.0</version>
-  <dependencies>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.testingshastra</groupId>
+	<artifactId>ProvisoPlusNew</artifactId>
+	<version>1.0.0</version>
+	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -23,11 +23,13 @@
 			<version>4.1.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
+		<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
 		<dependency>
 			<groupId>ru.yandex.qatools.ashot</groupId>
 			<artifactId>ashot</artifactId>
 			<version>1.5.4</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -77,10 +79,9 @@
 			<artifactId>allure-cucumber-jvm-adaptor</artifactId>
 			<version>1.6.3</version>
 		</dependency>
-
-
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>

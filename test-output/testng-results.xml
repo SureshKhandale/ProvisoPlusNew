@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -56,6 +57,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- VerifyThatAllFieldsArePresentOnSignInPage -->
         <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.signup.SingUpTestCase@21fd5faa]" started-at="2023-08-01T12:41:06 IST" name="tearDownMethod" finished-at="2023-08-01T12:41:06 IST" duration-ms="4" status="PASS">
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T14:00:13 IST" name="Default suite" finished-at="2023-07-15T14:00:48 IST" duration-ms="34888">
+    <groups>
+    </groups>
+    <test started-at="2023-07-15T14:00:13 IST" name="Default test" finished-at="2023-07-15T14:00:48 IST" duration-ms="34888">
+      <class name="com.signup.SingUpTestCase">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.signup.SingUpTestCase@21fd5faa]" started-at="2023-07-15T14:00:13 IST" name="setUpMethod" finished-at="2023-07-15T14:00:42 IST" duration-ms="28666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="VerifyThatAllFieldsArePresentOnSignInPage()[pri:0, instance:com.signup.SingUpTestCase@21fd5faa]" started-at="2023-07-15T14:00:43 IST" name="VerifyThatAllFieldsArePresentOnSignInPage" finished-at="2023-07-15T14:00:43 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyThatAllFieldsArePresentOnSignInPage -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.signup.SingUpTestCase@21fd5faa]" started-at="2023-07-15T14:00:44 IST" name="tearDownMethod" finished-at="2023-07-15T14:00:48 IST" duration-ms="4347" status="PASS">
+>>>>>>> master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
